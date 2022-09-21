@@ -18,6 +18,7 @@ public class Poker {
         int num; // кол-во игроков
         num = sc.nextInt();
         if (num > 10) System.out.println("Должно быть не более 10 игроков!");
+        else if (num < 2) System.out.println("Должно быть не менее 2 игроков!");
         else {
             for (int i = 0; i < num; i++) {
                 for (int j = 0; j < 5; j++) {
